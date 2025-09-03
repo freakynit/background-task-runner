@@ -1,0 +1,13 @@
+{
+  "name": "background-task-runner",
+  "version": "1.0.0",
+  "main": "src/background_task_runner.js",
+  "bin": "src/background_task_runner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "background", "task", "schedule"],
+  "author": "",
+  "license": "MIT",
+  "description": "A simple but robust Node.js library for running background tasks with configurable retry logic, error handling, and graceful shutdown capabilities."
+}
