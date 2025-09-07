@@ -18,15 +18,12 @@ A simple but robust Node.js library for running background tasks with configurab
 ```bash
 npm install @freakynit/background-task-runner
 ```
-- Not published yet. 
-- For now, just include one file `background_task_runner.js` in your project. There are no external dependencies.
 
 
 ## Basic Usage
 
 ```javascript
-const { BackgroundTaskRunner } = require('./background_task_runner.js');
-// const { BackgroundTaskRunner } = require('@freakynit/background-task-runner');  // when published
+const { BackgroundTaskRunner } = require('@freakynit/background-task-runner');
 
 // Simple task that runs every 30 seconds
 const task = async (config) => {
@@ -67,7 +64,7 @@ const config = {
 ## Error Handling Example
 
 ```javascript
-const { BackgroundTaskRunner } = require('background-task-runner');
+const { BackgroundTaskRunner } = require('@freakynit/background-task-runner');
 
 const unreliableTask = async () => {
     // Simulate a task that fails occasionally
@@ -101,7 +98,7 @@ await runner.start();
 ## Custom Logger Example
 
 ```javascript
-const { BackgroundTaskRunner } = require('background-task-runner');
+const { BackgroundTaskRunner } = require('@freakynit/background-task-runner');
 const winston = require('winston');
 
 // Create a Winston logger
@@ -248,7 +245,7 @@ await runner.stopAndWait();
 ## Real-world Example
 
 ```javascript
-const { BackgroundTaskRunner } = require('background-task-runner');
+const { BackgroundTaskRunner } = require('@freakynit/background-task-runner');
 const { DatabaseConnection } = require('./database');
 const { EmailService } = require('./email-service');
 

@@ -1,13 +1,24 @@
 {
   "name": "background-task-runner",
+  "description": "A simple but robust Node.js library for running background tasks with configurable retry logic, error handling, and graceful shutdown capabilities.",
   "version": "1.0.0",
-  "main": "src/background_task_runner.js",
-  "bin": "src/background_task_runner.js",
+  "main": "src/index.js",
+  "bin": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freakynit/background-task-runner.git"
+  },
+  "homepage": "https://github.com/freakynit/background-task-runner#readme",
+  "bugs": {
+    "url": "https://github.com/freakynit/background-task-runner/issues"
+  },
   "keywords": ["nodejs", "background", "task", "schedule"],
-  "author": "",
-  "license": "MIT",
-  "description": "A simple but robust Node.js library for running background tasks with configurable retry logic, error handling, and graceful shutdown capabilities."
+  "author": "Nitin Bansal <nitinbansal85@gmail.com>",
+  "license": "MIT"
 }
