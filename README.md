@@ -13,7 +13,6 @@ A simple but robust Node.js library for running background tasks with configurab
 - **Thread-safe operations** with countdown latch pattern
 
 ## Installation
-> See note below
 
 ```bash
 npm install @freakynit/background-task-runner
