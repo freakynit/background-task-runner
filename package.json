@@ -1,7 +1,7 @@
 {
   "name": "@freakynit/background-task-runner",
   "description": "A simple but robust Node.js library for running background tasks with configurable retry logic, error handling, and graceful shutdown capabilities.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "bin": "src/index.js",
   "scripts": {

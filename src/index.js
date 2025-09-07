@@ -73,7 +73,7 @@ class BackgroundTaskRunner {
         if (!validStrategies.includes(config.backoffStrategy)) {
             throw new Error(`backoffStrategy must be one of ${validStrategies.join(", ")}`);
         }
-        if (this.config.onError && typeof this.config.onError !== 'function') {
+        if (config.onError && typeof config.onError !== 'function') {
             throw new Error("maxRetries must be at least 1");
         }
     }
